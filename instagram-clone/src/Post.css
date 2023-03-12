@@ -1,8 +1,28 @@
+.post {
+    background-color: white;
+    max-width: 31.25em;
+    border: 0.0625em solid lightgray;
+    margin-bottom: 2.8125em;
+}
+
 .post__image {
     width: 100%;
     object-fit: contain;
+    border-top: 0.0625em solid lightgray;
+    border-bottom: 0.0625em solid lightgray;
 }
 
 .post__text {
     font-weight: normal;
+    padding: 1.25em;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    padding: 1.25em;
+}
+
+.post__avatar {
+    margin-right: 0.625em;
 }

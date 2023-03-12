@@ -4,13 +4,18 @@
 
 .app {
   background-color: #fafafa;
-  height: 100vh;
+}
+
+.app__header {
+  background-color: white;
 }
 
 .app__hearderImage {
-  background-color: white;
   padding: 20px;
-  border-bottom: 1px solid lightgray;
   width: 150px;
   object-fit: contain;
+}
+
+.app__hearderLine {
+  border-bottom: 1px solid lightgray;
 }
